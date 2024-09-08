@@ -29,25 +29,20 @@
         <mybatis.version>3.0.3</mybatis.version>
         <mybatis.plus.version>3.5.5</mybatis.plus.version>
     </properties>
-    
+
     <dependencyManagement>
-        
+
         <dependencies>
-
-
-
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis.plus.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.javaboy</groupId>
                 <artifactId>vhr-framework</artifactId>
@@ -69,7 +64,6 @@
                 <version>${vhr.version}</version>
             </dependency>
         </dependencies>
-        
     </dependencyManagement>
 
 </project>
